@@ -1,7 +1,7 @@
 {
     "_metadata": {
         "name": "NTP Lab01",
-        "weight": 1000,
+        "weight": 2000,
         "description": "NTP servers for Lab1",
         "is_active": true,
         "config_context_schema": ""
