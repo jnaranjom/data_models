@@ -1,0 +1,14 @@
+{
+    "ntp": {
+        "servers": [
+            {
+                "ipv4_host": "10.0.1.7",
+                "prefer": true
+            },
+            {
+                "ipv4_host": "10.0.1.8",
+                "prefer": false
+            }
+        ]
+    }
+}
