@@ -1,6 +1,6 @@
 {
     "_metadata": {
-        "name": "Lab01",
+        "name": "NTP Lab01",
         "weight": 1000,
         "description": "NTP servers for Lab1",
         "is_active": true,
