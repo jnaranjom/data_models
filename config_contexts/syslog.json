@@ -4,7 +4,7 @@
         "weight": 2000,
         "description": "Syslog servers for Lab1",
         "is_active": true,
-        "config_context_schema": ""
+        "config_context_schema": "",
         "roles": [{"name": "edge"}]
     },
     "syslog": {
