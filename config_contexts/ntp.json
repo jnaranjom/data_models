@@ -9,12 +9,12 @@
     "ntp": {
         "servers": [
             {
-                "ipv4_host": "10.0.2.7",
-                "prefer": true
+                "ip": "10.0.2.7",
+                "preferred": true
             },
             {
-                "ipv4_host": "10.0.2.8",
-                "prefer": false
+                "ip": "10.0.2.8",
+                "preferred": false
             }
         ]
     }
