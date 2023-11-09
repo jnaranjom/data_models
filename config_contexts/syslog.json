@@ -1,0 +1,20 @@
+{
+    "_metadata": {
+        "name": "Syslog Lab01",
+        "weight": 2000,
+        "description": "Syslog servers for Lab1",
+        "is_active": true,
+        "config_context_schema": ""
+        "roles": [{"name": "edge"}]
+    },
+    "syslog": {
+        "servers": [
+            {
+                "ip": "10.0.3.7"
+            },
+            {
+                "ip": "10.0.3.8"
+            }
+        ]
+    }
+}
