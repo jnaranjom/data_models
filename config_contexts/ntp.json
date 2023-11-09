@@ -1,7 +1,6 @@
 {
     "_metadata": {
         "name": "NTP Lab01",
-        "roles": [{"name": "edge"}],
         "weight": 2000,
         "description": "NTP servers for Lab1",
         "is_active": true,
