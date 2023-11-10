@@ -1,4 +1,12 @@
 {
+  "_metadata": {
+        "name": "MGMT ACL Lab01",
+        "weight": 1000,
+        "description": "MGMT ACL for Lab1",
+        "is_active": true,
+        "config_context_schema": "",
+        "location": "Lab01"
+    },
   "mgmt_acl":
   {
   "name": "mgmt",
