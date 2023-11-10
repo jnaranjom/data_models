@@ -1,0 +1,81 @@
+{
+  "mgmt_acl":
+  {
+  "name": "mgmt",
+  "version": "0.0.2",
+  "entries": [
+    {
+      "action": "permit",
+      "destination": "any",
+      "modifier": "",
+      "name": "mgmt",
+      "port": "",
+      "protocol": "ip",
+      "range": "",
+      "remark": "",
+      "sn": "",
+      "source": "192.168.5.0/24"
+    },
+    {
+      "action": "permit",
+      "destination": "any",
+      "modifier": "",
+      "name": "mgmt",
+      "port": "",
+      "protocol": "ip",
+      "range": "",
+      "remark": "",
+      "sn": "",
+      "source": "192.168.6.0/24"
+    },
+    {
+      "action": "permit",
+      "destination": "any",
+      "modifier": "",
+      "name": "mgmt",
+      "port": "",
+      "protocol": "ip",
+      "range": "",
+      "remark": "",
+      "sn": "",
+      "source": "192.168.7.0/24"
+    },
+    {
+      "action": "permit",
+      "destination": "any",
+      "modifier": "",
+      "name": "mgmt",
+      "port": "",
+      "protocol": "ip",
+      "range": "",
+      "remark": "",
+      "sn": "",
+      "source": "192.168.2.0/24"
+    },
+    {
+      "action": "permit",
+      "destination": "any",
+      "modifier": "",
+      "name": "mgmt",
+      "port": "",
+      "protocol": "ip",
+      "range": "",
+      "remark": "",
+      "sn": "",
+      "source": "192.168.1.0/24"
+    },
+    {
+      "action": "permit",
+      "destination": "any",
+      "modifier": "",
+      "name": "mgmt",
+      "port": "",
+      "protocol": "icmp",
+      "range": "",
+      "remark": "",
+      "sn": "",
+      "source": "192.168.3.0/24"
+    }
+  ]
+}
+}
