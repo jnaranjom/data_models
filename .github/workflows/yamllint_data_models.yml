@@ -12,5 +12,5 @@ jobs:
       - name: ⤵️ Check out code from GitHub
         uses: actions/checkout@v3
 
-      - name: 🚀 Run YAMLLINT ON PLAYBOOKS
+      - name: 🚀 Run YAMLLINT on DATA MODELS
         uses: frenck/action-yamllint@v1
