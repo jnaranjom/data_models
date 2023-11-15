@@ -1,0 +1,16 @@
+---
+name: "YAMLLINT DATA MODELS ON PRs TO MAIN"
+
+on:
+  pull_request:
+    branches: ["main"]
+jobs:
+  yamllint:
+    name: yamllint
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⤵️ Check out code from GitHub
+        uses: actions/checkout@v3
+
+      - name: 🚀 Run YAMLLINT on DATA MODELS
+        uses: frenck/action-yamllint@v1
