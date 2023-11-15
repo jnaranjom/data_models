@@ -1,4 +1,4 @@
-name: Run IP ADDRESS VALIDATION
+name: RUN DATA VALIDATION
 
 on:
   pull_request:
@@ -23,3 +23,6 @@ jobs:
 
       - name: Execute Script to Validate IP addresses in Data models
         run: python3 ip_addresses_tests.py
+
+      - name: Execute Script to Validate ACLs in Data models
+        run: python3 acl_tests.py
