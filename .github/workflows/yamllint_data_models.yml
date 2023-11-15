@@ -1,0 +1,16 @@
+---
+name: "YAMLLINT DATA MODESL ON PRs TO MAIN"
+
+on:
+  pull_request:
+    branches: ["main"]
+jobs:
+  yamllint:
+    name: yamllint
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⤵️ Check out code from GitHub
+        uses: actions/checkout@v3
+
+      - name: 🚀 Run YAMLLINT ON PLAYBOOKS
+        uses: frenck/action-yamllint@v1
