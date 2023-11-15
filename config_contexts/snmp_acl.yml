@@ -1,12 +1,12 @@
 ---
 _metadata:
-  name: MGMT ACL Lab01
+  name: SNMP ACL Lab01
   weight: 1000
-  description: MGMT ACL for Lab1
+  description: SNMP ACL for Lab1
   is_active: true
   config_context_schema: ""
   location: Lab01
-mgmt_acl:
+snmp_acl:
   name: mgmt
   version: 0.0.2
   entries:
@@ -19,7 +19,7 @@ mgmt_acl:
       range: ""
       remark: ""
       sn: ""
-      source: 192.168.5.0/24
+      source: 172.31.5.0/26
     - action: permit
       destination: any
       modifier: ""
@@ -29,7 +29,7 @@ mgmt_acl:
       range: ""
       remark: ""
       sn: ""
-      source: 192.168.6.0/24
+      source: 172.31.6.0/26
     - action: permit
       destination: any
       modifier: ""
@@ -39,7 +39,7 @@ mgmt_acl:
       range: ""
       remark: ""
       sn: ""
-      source: 192.168.7.0/24
+      source: 172.31.7.0/26
     - action: permit
       destination: any
       modifier: ""
@@ -49,7 +49,7 @@ mgmt_acl:
       range: ""
       remark: ""
       sn: ""
-      source: 192.168.2.0/24
+      source: 172.31.2.0/26
     - action: permit
       destination: any
       modifier: ""
@@ -59,7 +59,7 @@ mgmt_acl:
       range: ""
       remark: ""
       sn: ""
-      source: 192.168.1.0/24
+      source: 172.31.1.0/26
     - action: permit
       destination: any
       modifier: ""
@@ -69,4 +69,4 @@ mgmt_acl:
       range: ""
       remark: ""
       sn: ""
-      source: 192.168.3.0/24
+      source: 172.31.3.0/26
