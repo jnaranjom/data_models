@@ -1,0 +1,15 @@
+---
+_metadata:
+  name: NTP Edge Lab01
+  weight: 2000
+  description: NTP servers for Lab1
+  is_active: true
+  config_context_schema: ""
+  roles:
+    - name: edge
+ntp:
+  servers:
+    - ip: 10.0.2.7
+      preferred: true
+    - ip: 10.0.2.8
+      preferred: false
