@@ -9,21 +9,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repo content
+      - name: Checkout repo content
         uses: actions/checkout@v2 # checkout the repository content
 
-      - name: setup python
+      - name: Setup python
         uses: actions/setup-python@v4
         with:
           python-version: '3.8' # install the python version needed
 
-      - name: install python packages
+      - name: Install python packages
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Execute Script to Validate IP addresses in Data models
+      - name: Validate IP addresses in Data models
         run: python3 ip_addresses_tests.py
 
-      - name: Execute Script to Validate ACLs in Data models
+      - name: Validate ACLs in Data models
         run: python3 acl_tests.py
