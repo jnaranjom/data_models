@@ -10,4 +10,4 @@ _metadata:
 syslog:
   servers:
     - ip: 10.0.3.7
-      - ip: 10.0.3.8
+    - ip: 10.0.3.8
