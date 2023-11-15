@@ -4,7 +4,8 @@
         "weight": 2000,
         "description": "NTP servers for Lab1",
         "is_active": true,
-        "config_context_schema": ""
+        "config_context_schema": "",
+        "roles": ["edge"]
     },
     "ntp": {
         "servers": [
