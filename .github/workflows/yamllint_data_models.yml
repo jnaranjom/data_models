@@ -1,5 +1,5 @@
 ---
-name: "YAMLLINT DATA MODESL ON PRs TO MAIN"
+name: "YAMLLINT DATA MODELS ON PRs TO MAIN"
 
 on:
   pull_request:
