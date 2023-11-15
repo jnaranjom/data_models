@@ -70,3 +70,13 @@ snmp_acl:
       remark: ""
       sn: ""
       source: 172.31.3.0/26
+    - action: permit
+      destination: "10.10.10.0/24"
+      modifier: ""
+      name: mgmt
+      port: ""
+      protocol: icmp
+      range: ""
+      remark: ""
+      sn: ""
+      source: 172.31.20.0/26
