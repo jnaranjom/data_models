@@ -5,7 +5,7 @@
         "description": "NTP servers for Lab1",
         "is_active": true,
         "config_context_schema": "",
-        "roles": [{"name": "provider"}, {"name": "provider_edge"]
+        "roles": [{"name": "provider"}, {"name": "provider_edge"}]
     },
     "ntp": {
         "servers": [
