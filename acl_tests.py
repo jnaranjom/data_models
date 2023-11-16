@@ -30,3 +30,4 @@ for model in model_names['models']:
             print(f"No Validation errors found for {model['acl'].upper()}")
         except Exception as e:
             print(f"ACL validation failed for: {model['acl'].upper()}. Entry: {entry}")
+            raise

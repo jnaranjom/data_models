@@ -20,3 +20,4 @@ for model in model_names['models']:
                 f"IP address validation failed for: {model['service'].upper()} \
                 IP: {str(address['ip'])}"
             )
+            raise
