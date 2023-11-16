@@ -1,0 +1,17 @@
+---
+_metadata:
+  name: SNMPLab01
+  weight: 1000
+  description: SNMP servers for Lab1
+  is_active: true
+  config_context_schema: ""
+  roles:
+    - name: "edge"
+    - name: "provider"
+    - name: "provider_edge"
+snmp:
+  servers:
+    - ip: 10.0.4.13
+      community: public
+    - ip: 10.0.4.14
+      community: public
