@@ -5,6 +5,9 @@ _metadata:
   description: DNS servers for Lab1
   is_active: true
   config_context_schema: ""
+  roles:
+    - name: "edge"
+    - name: "provider"
 dns:
   servers:
     - ip: 10.0.2.10
