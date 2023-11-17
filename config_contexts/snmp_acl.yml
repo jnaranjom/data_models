@@ -6,14 +6,17 @@ _metadata:
   is_active: true
   config_context_schema: ""
   location: Lab01
+  roles:
+    - name: "edge"
+    - name: "provider"
 snmp_acl:
-  name: mgmt
+  name: snmp
   version: 0.0.2
   entries:
     - action: deny
       destination: any
       modifier: ""
-      name: mgmt
+      name: snmp
       port: ""
       protocol: ip
       range: ""
@@ -23,7 +26,7 @@ snmp_acl:
     - action: permit
       destination: any
       modifier: ""
-      name: mgmt
+      name: snmp
       port: ""
       protocol: ip
       range: ""
@@ -33,50 +36,10 @@ snmp_acl:
     - action: permit
       destination: any
       modifier: ""
-      name: mgmt
+      name: snmp
       port: ""
       protocol: ip
       range: ""
       remark: ""
       sn: ""
       source: 172.31.7.0/26
-    - action: permit
-      destination: any
-      modifier: ""
-      name: mgmt
-      port: ""
-      protocol: ip
-      range: ""
-      remark: ""
-      sn: ""
-      source: 172.31.2.0/26
-    - action: permit
-      destination: any
-      modifier: ""
-      name: mgmt
-      port: ""
-      protocol: ip
-      range: ""
-      remark: ""
-      sn: ""
-      source: 172.31.1.0/26
-    - action: permit
-      destination: any
-      modifier: ""
-      name: mgmt
-      port: ""
-      protocol: icmp
-      range: ""
-      remark: ""
-      sn: ""
-      source: 172.31.3.0/26
-    - action: permit
-      destination: "10.10.10.0/24"
-      modifier: ""
-      name: mgmt
-      port: ""
-      protocol: icmp
-      range: ""
-      remark: ""
-      sn: ""
-      source: 172.31.20.0/26
