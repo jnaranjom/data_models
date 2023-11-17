@@ -3,7 +3,7 @@ name: RUN DATA VALIDATION
 
 on:
   pull_request:
-    branches: ["main"]
+    branches: ["main", "develop"]
 
 jobs:
   build:
