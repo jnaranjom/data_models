@@ -3,7 +3,7 @@ name: "YAMLLINT DATA MODELS ON PRs TO MAIN"
 
 on:
   pull_request:
-    branches: ["main"]
+    branches: ["main", "develop"]
 jobs:
   yamllint:
     name: yamllint
